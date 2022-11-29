@@ -1,0 +1,89 @@
+{
+  "todo-tree.general.tags": [
+    "NOTE",
+    "TODO",
+    "COMMENT",
+    "FIXME",
+    "URL",
+    "MARK",
+    "WARN",
+    "REVIEW",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text-and-comment",
+    "fontWeight": "bold",
+    "foreground": "#120a1a",
+    "opacity": 90
+  },
+  "todo-tree.highlights.customHighlight": {
+    "NOTE": {
+      "background": "#00FFFF",
+      "iconColour": "#ff6200",
+      "foreground": "#de1313",
+      "icon": "MARK",
+      "gutterIcon": true
+    },
+    "URL": {
+      "background": "#00FFFF",
+      "iconColour": "#ff6200",
+      "foreground": "#de1313",
+      "icon": "file",
+      "gutterIcon": true
+    },
+    "TODO": {
+      "background": "#03ff92",
+      "iconColour": "#ff0374",
+      "icon": "check",
+      "type": "line",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "background": "#FF01FF",
+      "iconColour": "#FF01FF",
+      "icon": "bug",
+      "gutterIcon": true
+    },
+    "MARK": {
+      "background": "#157EFB",
+      "iconColour": "#157EFB",
+      "icon": "tag",
+      "gutterIcon": true
+    },
+    "COMMENT": {
+      "background": "#c9fb15",
+      "iconColour": "#157EFB",
+      "icon": "tag",
+      "gutterIcon": true
+    },
+    "REVIEW": {
+      "background": "#c9fb15",
+      "iconColour": "#157EFB",
+      "icon": "eye",
+      "gutterIcon": true
+    },
+    "WARN": {
+      "foreground": "#c9fb15",
+      "background": "#157EFB",
+      "iconColour": "#FF01FF",
+      "icon": "alert",
+      "type": "text",
+      "gutterIcon": true
+    },
+    "[ ]": {
+      "background": "#ff000080",
+      "iconColour": "#ff000080",
+      "icon": "square",
+      "gutterIcon": true
+    },
+    "[x]": {
+      "background": "#00ff0080",
+      "iconColour": "#00ff0080",
+      "icon": "square-fill",
+      "gutterIcon": true
+    }
+  },
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)"
+}
